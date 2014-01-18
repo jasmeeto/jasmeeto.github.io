@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <div class="site">
+          <header class="name">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          </header>
+
+          {{ content }}
+
+          <footer class="copyright">
+            <div class="contact">
+              <p>
+                Jasmeet<br />
+                Software Developer<br />
+                joberai@uwaterloo.ca
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/{{site.github}}">GitHub</a><br />
+                <a href="http://ca.linkedin.com/in/{{ site.linkedin }}/">LinkedIn</a><br />
+                <a href="https://twitter.com/{{site.twitter}}">Twitter</a><br />
+                <a href="https://facebook.com/{{site.facebook}}">twitter.com/yourusername</a><br />
+              </p>
+            </div>
+          </div>
+        </footer>
+
+    </body>
+</html>
