@@ -14,7 +14,6 @@
 
 body {
   background-color: #666;
-  /*background-color: rgba(255, 90, 25, 0.6);*/
   font: Helvetica, Arial, sans-serif;
   font-size: ;
   text-align: center;
@@ -29,22 +28,20 @@ p { margin: 1em 0; }
 a:link, a:hover, a:visited, a:active {
     text-decoration:none
 }
-a:link, a:visited, a:active { color: #000; }
-a:hover{ color: #fff }
 
-ul {
-    list-style-type:none;
-    padding: 0;
-    margin: 0;
+a:link, a:visited, a:active { color: #ff8f57; }
+a:hover{ color: #ddd }
+
+section {
+   margin: 4rem auto; 
 }
-
 /*****************************************************************************/
 /*
 /* Menu
 /*
 /*****************************************************************************/
 .menu{
-    margin: 2rem auto;
+    margin: -2rem auto 3rem;
 }
 
 .menu a {
@@ -55,8 +52,10 @@ ul {
     padding: 1rem;
 }
 
-.menu a:visited, a:link, a:active{
-  color: #ff8f57;
+.menu a:visited,
+.menu a:link,
+.menu a:active {
+    color: #ff8f57;
 }
 
 .menu a:hover{
@@ -72,11 +71,19 @@ ul {
 }
 
 .menu .active{
-    background-color: #000;
+    background-color: #ff8f57;
 }
 
-.menu .active a:visited, a:link, a:active{
-    color: #fff;
+.menu .active a:visited,
+.menu .active a:link,
+.menu .active a:active {
+  color: #fff;
+}
+
+.menu ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
 }
 
 /*****************************************************************************/
@@ -140,16 +147,21 @@ ul {
     /*margin: 1rem;*/
 }
 
-.main-grid a:hover, a:active{
-    color: #000 !important;
-}
+/*.main-grid a:link,*/
+/*.main-grid a:active,*/
+/*.main-grid a:visited{*/
+    /*color: #428bca !important;*/
+/*}*/
+
+/*.main-grid a:hover{*/
+    /*color: #F76F14 !important;*/
+/*}*/
 
 footer {
   color: #fff;
   font-size: 90%;
   overflow: hidden;
 }
-
 
 /*****************************************************************************/
 /*
@@ -197,7 +209,7 @@ footer {
 
 @media (max-width:995px){
     .main-grid .custom-row{
-        margin: 2rem;
+        margin: 2.5rem;
     }
 }
 

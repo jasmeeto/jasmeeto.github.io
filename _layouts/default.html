@@ -15,6 +15,8 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/syntax.css">
 
+        <!-- FavIcon -->
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
     <body>
 
@@ -22,10 +24,10 @@
           <header class="menu">
             <nav class="grid">
                 <ul class="custom-row">
-                    <li class="col-md-3 active"><a href="/">Jasinobe</a></li>
-                    <li class="col-md-3"><a href="/about/">About</a></li>
-                    <li class="col-md-3"><a href="/projects/">Projects</a></li>
-                    <li class="col-md-3"><a href="/contact/">Contact</a></li>
+                    <li class="col-md-3 {% if page.active == "home" %}active{%endif%}"><a href="/">Jasinobe</a></li>
+                    <li class="col-md-3 {% if page.active == "about" %}active{%endif%}"><a href="/about/">About</a></li>
+                    <li class="col-md-3 {% if page.active == "projects" %}active{%endif%}"><a href="/projects/">Projects</a></li>
+                    <li class="col-md-3 {% if page.active == "contact" %}active{%endif%}"><a href="/contact/">Contact</a></li>
                 </ul>
             </nav>
           </header>
