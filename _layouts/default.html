@@ -6,42 +6,41 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/assets/css/syntax.css">
+        <!--Bootstrap -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/assets/css/main.css">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/assets/css/syntax.css">
+
     </head>
     <body>
 
         <div class="site">
-          <header class="name">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          <header class="menu">
+            <nav class="grid">
+                <ul class="row">
+                    <li class="col-md-3"><a href="/">Jasinobe</a></li>
+                    <li class="col-md-3"><a href="/about/">About</a></li>
+                    <li class="col-md-3"><a href="/projects/">Projects</a></li>
+                    <li class="col-md-3"><a href="/contact/">Contact</a></li>
+                </ul>
+            </nav>
           </header>
-
-          {{ content }}
+          
+          <div class="main-grid">
+            {{ content }}
+          </div>
 
           <footer class="copyright">
-            <div class="contact">
-              <p>
-                Jasmeet<br />
-                Software Developer<br />
-                joberai@uwaterloo.ca
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/{{site.github}}">GitHub</a><br />
-                <a href="http://ca.linkedin.com/in/{{ site.linkedin }}/">LinkedIn</a><br />
-                <a href="https://twitter.com/{{site.twitter}}">Twitter</a><br />
-                <a href="https://facebook.com/{{site.facebook}}">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </footer>
-
+              <div class="grid">
+                  <div class="row">
+                      <p class="col-md-8 col-md-offset-2"> &copy; Jasmeet Oberai 2014. This site is served by Jekyll and is hosted on Github.</p>
+                  </div>
+              </div>
+          </footer>
+        </div>
     </body>
 </html>
