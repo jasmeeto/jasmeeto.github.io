@@ -10,13 +10,13 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+/*html, body { height: 100%; }*/
 
 body {
   color: #FF4719;
-  background-color: #ddd;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  background-color: #333;
+  font: Helvetica, Arial, sans-serif;
+  font-size: ;
   text-align: center;
 }
 
@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 150%; 
 }
 
-/*h1 { margin-bottom: 1em; }*/
 p { margin: 1em 0; }
 
 a:link, a:hover, a:visited, a:active {
@@ -48,14 +47,21 @@ ul {
 /*
 /*****************************************************************************/
 .menu{
-    margin: 2rem 2rem;
-
+    margin: 2rem auto;
+    background-color: #aaa;
 }
 
 .menu a {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 3.5rem; 
+    font-size: 3.7rem; 
+}
+
+.menu ul > li {
+    padding: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #888;
 }
 
 /*****************************************************************************/
@@ -90,7 +96,7 @@ ul {
   line-height: 1.5em;
 }
 
-.site .page-title{
+.site .sub-heading{
   font-weight: bold;
   color: #CF5300;
 }
@@ -116,6 +122,7 @@ ul {
 .main-grid{
     background-color: #fff;
     text-align: justify;
+    /*margin: 1rem;*/
 }
 
 .main-grid a:hover, a:active{
@@ -166,3 +173,34 @@ footer {
 .post pre.terminal code {
   background-color: #333;
 }
+
+/*****************************************************************************/
+/*
+/* Mobile Overrides
+/*
+/*****************************************************************************/
+
+@media (max-width:995px){
+    .main-grid .custom-row{
+        margin: 2rem;
+    }
+}
+
+/*****************************************************************************/
+/*
+/* Custom Additions
+/*
+/*****************************************************************************/
+
+.rounded {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.custom-row:before, .custom-row:after{display:table;content:" "}
+.custom-row:after{clear:both}
+.custom-row:before, .custom-row:after{display:table;content:" "}
+.custom-row:after{clear:both}

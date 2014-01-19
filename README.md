@@ -1,5 +1,5 @@
 # &lt;Insert title for yet another blog&gt;
-My blog lies here [jasmeeto.gihub.io](http://jasmeeto.github.io)
+Access the blog at [jasinobe.com](http://jasinobe.com)
 
 # License:
 MIT: [http://rem.mit-license.org](http://jasmeeto.github.io)
