@@ -14,8 +14,8 @@
 
 body {
   background-color: #666;
-  font: Helvetica, Arial, sans-serif;
-  font-size: ;
+  font: lucida, sans-serif;
+  font-size: 140%;
   text-align: center;
 }
 
@@ -161,6 +161,10 @@ footer {
   color: #fff;
   font-size: 90%;
   overflow: hidden;
+}
+
+.social{
+  font-size:150%;
 }
 
 /*****************************************************************************/
