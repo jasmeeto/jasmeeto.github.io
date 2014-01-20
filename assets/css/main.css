@@ -107,6 +107,11 @@ section {
   font-size: 80%;
 }
 
+a.back{
+  font-weight: bold;
+  font-size: 110%;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -159,7 +164,13 @@ footer {
 }
 
 .social{
-  font-size:150%;
+  font-size: 160%;
+  text-transform: uppercase;
+}
+
+.social ul > li{
+  margin: 1rem auto;
+  list-style-type: none;
 }
 
 /*****************************************************************************/
@@ -209,6 +220,10 @@ footer {
 @media (max-width:995px){
     .main-grid .custom-row{
         margin: 2.5rem;
+    }
+
+    .sm-center{
+        text-align: center;
     }
 }
 
