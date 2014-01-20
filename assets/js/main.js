@@ -4,7 +4,7 @@ function setPdf(){
   var pdf = document.getElementById("pdf-resume");
 
   if (pdf){
-    pdf.style.height = pdf.offsetWidth * 13 / 10+ 'px';
+    pdf.style.height = pdf.offsetWidth * 5/2 + 'px';
   }
   else{
     return false;
