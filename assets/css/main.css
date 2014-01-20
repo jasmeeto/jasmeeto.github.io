@@ -13,12 +13,12 @@
 body {
   background-color: #666;
   font: lucida, sans-serif;
-  font-size: 140%;
+  font-size: 150%;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 150%; 
+  font-size: 140%; 
 }
 
 p { margin: 1em 0; }
@@ -151,7 +151,7 @@ a.back{
 .main-grid{
     background-color: #fff;
     text-align: left;
-    font-family: FontAwesome, sans-serif;
+    font-family: 'Lato', sans-serif;
     box-shadow: 0 0.6rem 4px -2px #232323;
     -moz-box-shadow: 0 0.6rem 4px -2px #232323;
     -webkit-box-shadow: 0 0.6rem 4px -2px #232323;
