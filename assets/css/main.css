@@ -151,7 +151,7 @@ a.back{
 .main-grid{
     background-color: #fff;
     text-align: left;
-    font-family: FontAwesome;
+    font-family: FontAwesome, sans-serif;
     box-shadow: 0 0.6rem 4px -2px #232323;
     -moz-box-shadow: 0 0.6rem 4px -2px #232323;
     -webkit-box-shadow: 0 0.6rem 4px -2px #232323;
