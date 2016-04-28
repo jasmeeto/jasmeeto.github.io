@@ -13,7 +13,8 @@
 }
 
 body {
-  background-color: #d1d1d1;
+  /*background-color: #B2E0EB;*/
+  background-color: #D4F7FF;
   font: lucida, sans-serif;
   font-size: 150%;
   text-align: center;
@@ -63,7 +64,7 @@ section {
 }
 
 .menu a:hover{
-  background-color: #999;
+  background-color: #26C9ED;
   color: #fff;
 }
 
@@ -107,6 +108,7 @@ section {
 .posts span {
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+  color: #666;
 }
 
 a.back{
