@@ -10,4 +10,4 @@ twitter: JasmeetOberai
 
 name: jasinobe
 markdown: redcarpet
-pygments: true
+highlighter: pygments
