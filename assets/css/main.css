@@ -13,8 +13,7 @@
 }
 
 body {
-  /*background-color: #B2E0EB;*/
-  background-color: #D4F7FF;
+  background-color: #e6e7eb;
   font: lucida, sans-serif;
   font-size: 150%;
   text-align: center;
@@ -31,7 +30,7 @@ a:link, a:hover, a:visited, a:active {
 }
 
 a:link, a:visited, a:active { color: #ff8f57; }
-a:hover{ color: #ddd }
+a:hover{ color: #26C9ED }
 
 section {
    margin: 4rem auto; 
