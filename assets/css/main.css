@@ -258,6 +258,11 @@ footer {
     }
 }
 
+@media (min-width: 995px) {
+    .pull-right-lg {
+        text-align: right;
+    }
+}
 /*****************************************************************************/
 /*
 /* Custom Additions
