@@ -1,10 +1,12 @@
+---
+---
 window.addEventListener('load', setPdf, false);
 
 function setPdf(){
   var pdf = document.getElementById("pdf-resume");
 
   if (pdf){
-    pdf.style.height = pdf.offsetWidth * 13/5 + 'px';
+    pdf.style.height = (pdf.offsetWidth * 13)/10 + 'px';
   }
   else{
     return false;
