@@ -27,7 +27,7 @@ const ResumePage = () => {
           <div class="resume">
             <a href="/assets/pdf/Jasmeet-Oberai-CV-condensed.pdf">Condensed PDF Resume Link</a>
             <br />
-            <a href={"https://www.overleaf.com/docs?snip_uri=http://" + site.siteMetadata.website + "/assets/tex/resume.tex"}>
+            <a href={"https://www.overleaf.com/docs?snip_uri=https://" + site.siteMetadata.website + "/assets/tex/resume.tex"}>
               Open LaTeX with Overleaf
             </a>
             <br />
