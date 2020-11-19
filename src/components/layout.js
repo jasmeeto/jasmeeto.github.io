@@ -46,7 +46,7 @@ const Layout = ({ page,  children }) => {
         <footer class="copyright">
             <div class="grid">
                 <div class="custom-row">
-                    <p class="col-md-8 col-md-offset-2"> &copy; Jasmeet Oberai 2020. This site is served by Gatsby and is hosted on
+                    <p class="col-md-8 col-md-offset-2"><span>&copy; Jasmeet Oberai 2020. This site is served by Gatsby and is hosted on </span>
                        <a href={'https://github.com/' + site.siteMetadata.github + '/' + site.siteMetadata.github +'.github.io'}>GitHub</a> </p>
                 </div>
             </div>

@@ -31,10 +31,10 @@ const ResumePage = () => {
               Open LaTeX with Overleaf
             </a>
             <br />
-            <a href={"http://ca.linkedin.com/in/" + site.siteMetadata.linkedin }>LinkedIn Profile</a>
+            <a href={"https://ca.linkedin.com/in/" + site.siteMetadata.linkedin }>LinkedIn Profile</a>
             <br />
             <br />
-            <ResizablePdf pdfUrl={"http://" + site.siteMetadata.website + "/assets/pdf/Jasmeet-Oberai-CV-condensed.pdf"} />
+            <ResizablePdf pdfUrl={"https://" + site.siteMetadata.website + "/assets/pdf/Jasmeet-Oberai-CV-condensed.pdf"} />
           </div>
         </section>
       </article>
