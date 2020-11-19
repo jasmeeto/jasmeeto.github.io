@@ -19,7 +19,7 @@ It's a percussive instrument like no other, with a uniquely identifying feature 
 
 <div class="video-container">
 	<iframe width="100%"
-	src="http://www.youtube.com/embed/UOpxsbQl28c"
+	src="https://www.youtube.com/embed/UOpxsbQl28c"
 	frameborder="0" 
 	allowfullscreen>
 	</iframe>
