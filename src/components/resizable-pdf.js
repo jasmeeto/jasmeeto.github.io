@@ -34,7 +34,7 @@ const ResizablePdf = ({pdfUrl}) => {
             <iframe ref={componentRef}
                 title="pdf-resume"
                 id="pdf-resume"
-                src={"http://docs.google.com/gview?url="+ pdfUrl + "&embedded=true"}
+                src={"https://docs.google.com/gview?url="+ pdfUrl + "&embedded=true"}
                 style={{ width: '100%' , height: styledHeight }}
                 frameborder="0"></iframe>
         </div>
