@@ -9,6 +9,23 @@ const ProjectsPage = () => (
       <article class="page col-md-8 col-md-offset-2">
         <section>
           <h2 class="sub-heading">
+            <i class="fa fa-cloud fa-fw"></i>
+          Goose Pursuit
+        </h2>
+          <div>
+            <ul class="proj-list">
+              <li>
+                <i class="fa fa-chevron-right"></i>
+            <span> A reprised web version of the classic 2D game based on Duck Hunt, originally created as an <b>Android</b> game with <b>libgdx</b>.</span>
+            </li>
+            </ul>
+            <p>
+              Check it out on <a href="https://github.com/jasmeeto/goose-hunter-web">GitHub</a>
+            </p>
+          </div>
+
+
+          <h2 class="sub-heading">
             <i class="fa fa-plane fa-fw"></i>
             ItinPlanner
         </h2>
@@ -61,23 +78,6 @@ const ProjectsPage = () => (
             </ul>
             <p>
               Check it out on <a href="http://git.io/fAlPBA">GitHub</a>
-            </p>
-          </div>
-
-
-          <h2 class="sub-heading">
-            <i class="fa fa-cloud fa-fw"></i>
-          Goose Pursuit
-        </h2>
-          <div>
-            <ul class="proj-list">
-              <li>
-                <i class="fa fa-chevron-right"></i>
-            <span> 2D <b>Android</b> game created with <b>libgdx</b> based on the classic game Duck Hunt.</span>
-            </li>
-            </ul>
-            <p>
-              Available on the <a href="https://play.google.com/store/apps/details?id=com.me.goosehunter">Play Store</a>
             </p>
           </div>
 

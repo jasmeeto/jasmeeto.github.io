@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ResizablePdf from "../components/resizable-pdf"
 import { useStaticQuery, graphql } from "gatsby"
 
 const ResumePage = () => {
@@ -25,16 +24,9 @@ const ResumePage = () => {
         <section>
           <h2 class="sub-heading">Resume</h2>
           <div class="resume">
-            <a href="/assets/pdf/Jasmeet-Oberai-CV-condensed.pdf">Condensed PDF Resume Link</a>
-            <br />
-            <a href={"https://www.overleaf.com/docs?snip_uri=https://" + site.siteMetadata.website + "/assets/tex/resume.tex"}>
-              Open LaTeX with Overleaf
-            </a>
+            <a href="https://www.jasmeetoberai.com/ai-resume/">Online Resume</a>
             <br />
             <a href={"https://ca.linkedin.com/in/" + site.siteMetadata.linkedin }>LinkedIn Profile</a>
-            <br />
-            <br />
-            <ResizablePdf pdfUrl={"https://" + site.siteMetadata.website + "/assets/pdf/Jasmeet-Oberai-CV-condensed.pdf"} />
           </div>
         </section>
       </article>
