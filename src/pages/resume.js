@@ -27,6 +27,14 @@ const ResumePage = () => {
             <a href="https://www.jasmeetoberai.com/ai-resume/">Online Resume</a>
             <br />
             <a href={"https://ca.linkedin.com/in/" + site.siteMetadata.linkedin }>LinkedIn Profile</a>
+            <br />
+            <br />
+            <iframe
+              title="ai-resume"
+              src="https://www.jasmeetoberai.com/ai-resume/"
+              style={{ width: '100%', height: '800px', border: '1px solid #ddd' }}
+              frameBorder="0"
+            />
           </div>
         </section>
       </article>
