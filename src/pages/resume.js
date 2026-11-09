@@ -26,8 +26,6 @@ const ResumePage = () => {
           <div class="resume">
             <a href="https://www.jasmeetoberai.com/ai-resume/" target="_blank" rel="noopener noreferrer">Print Resume as PDF</a>
             <br />
-            <a href="https://www.jasmeetoberai.com/ai-resume/">Online Resume</a>
-            <br />
             <a href={"https://ca.linkedin.com/in/" + site.siteMetadata.linkedin }>LinkedIn Profile</a>
             <br />
             <br />
